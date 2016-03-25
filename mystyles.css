@@ -1,0 +1,25 @@
+/*web fonts---------*/
+@font-face {
+	font-family: 'Nunito', sans-serif;
+		src: url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+}
+
+
+
+/*base styles---------*/
+.background {
+	background-color: black;
+	color:#cc0000;
+
+}
+
+header {
+	font-family: 'Nunito', sans-serif;
+
+}
+footer{
+	color:red;
+}
+/*media queries---------*/

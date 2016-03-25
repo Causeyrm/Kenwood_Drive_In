@@ -86,23 +86,45 @@ Kenwood Drive-in
         </div>
     </nav>
 </div>
-</body>
-</html>                                		
-
-</style>
-</head>
-<body>
-
-            
-</html>                                		
+                       		
 <!--end navbar-->
 
 
 <br>
 <div>
 <image src="graphics/closed.gif">
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p align= "left">
+    The Kenwood Drive-In is located at 7001 Southside Drive.
+  </p>
+
+  <style>
+      #map {
+        width: 250px;
+        height: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"> </div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 38.153192, lng: -85.761946},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+
 </header>
 
-<footer></footer>
 
 </html>
